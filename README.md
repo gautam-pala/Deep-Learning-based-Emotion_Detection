@@ -10,3 +10,4 @@ Dataset :
 
 The dataset consists of an image directory with images (color, black & white) in the .jpg format of human faces. These images have not been uploaded here due to size constraints. The train.csv file maps an image in the images directory with a facial expression. We use the Pillow library for image manipulation and augmentation (resizing, converting to black and white, transposing, cropping etc.). The dataset used for this project contained 12,992 images which are split into training, validation and test dataset.
 
+NOTE :: you have to change the path according to location of your dataset(line no 28,29)
